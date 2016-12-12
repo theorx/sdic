@@ -1,13 +1,13 @@
 <?php
 
-namespace theorx\SDIC\Interfaces;
+namespace Theorx\SDIC\Interfaces;
 
 /**
  * @author  Lauri Orgla <theorx@hotmail.com>
  *
  * Interface SDICExtension
  *
- * @package theorx\SDIC\Interfaces
+ * @package Theorx\SDIC\Interfaces
  */
 interface SDICExtension {
 

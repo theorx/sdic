@@ -1,16 +1,16 @@
 <?php
 
-namespace theorx\SDIC;
+namespace Theorx\SDIC;
 
-use theorx\SDIC\Exception\DependencyNotFoundException;
-use theorx\SDIC\Interfaces\SDICExtension;
+use Theorx\SDIC\Exception\DependencyNotFoundException;
+use Theorx\SDIC\Interfaces\SDICExtension;
 
 /**
  * Class SDIC
  *
  * @author  Lauri Orgla <theorx@hotmail.com>
  *
- * @package theorx\SDIC
+ * @package Theorx\SDIC
  */
 class SDIC {
 

@@ -1,13 +1,13 @@
 <?php
 
-namespace theorx\SDIC\Exception;
+namespace Theorx\SDIC\Exception;
 
 /**
  * Class DependencyNotFoundException
  *
  * @author  Lauri Orgla <theorx@hotmail.com>
  *
- * @package theorx\SDIC\Exception
+ * @package Theorx\SDIC\Exception
  */
 class DependencyNotFoundException extends \Exception {
 

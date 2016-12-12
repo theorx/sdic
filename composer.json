@@ -1,0 +1,18 @@
+{
+  "name": "theorx/sdic",
+  "description": "Simple dependency injection container",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Lauri Orgla",
+      "email": "theorx@hotmail.com"
+    }
+  ],
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "theorx\\SDIC\\": "library/SDIC/"
+    }
+  }
+}

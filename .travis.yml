@@ -1,0 +1,18 @@
+language: php
+
+php:
+  - 7.0
+  - 7.1
+matrix:
+  fast_finish: true
+
+
+before_install:
+  - sudo apt-get update > /dev/null
+  - composer install
+
+
+before_script:
+  - echo "Before script.."
+
+script: phpunit

@@ -19,7 +19,7 @@
   "autoload": {
     "psr-4": {
       "Theorx\\SDIC\\": "library/SDIC/",
-      "Tests\\" : "tests/Unit/library/SDIC/"
+      "Tests\\" : "tests/Unit/library/"
     }
   }
 }

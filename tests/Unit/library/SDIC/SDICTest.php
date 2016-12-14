@@ -1,6 +1,6 @@
 <?php
 
-namespace Tests\SDIC;
+namespace Tests\SDIC\SDIC;
 
 use Theorx\SDIC\Interfaces\SDICExtension;
 use Theorx\SDIC\SDIC;
@@ -10,7 +10,7 @@ use Theorx\SDIC\SDIC;
  *
  * @author  Lauri Orgla <theorx@hotmail.com>
  * @coversDefaultClass \Theorx\SDIC\SDIC
- * @package Tests\SDIC
+ * @package Tests\SDIC\SDIC
  */
 class SDICTest extends \PHPUnit_Framework_TestCase {
 

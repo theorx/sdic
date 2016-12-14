@@ -1,5 +1,5 @@
 # Simple dependency injection container for PHP
-*There are many dependency injection containers out there, this one is minimalistic and straight forward. Doesn't have any third-party dependencies or what not.*
+*There are many dependency injection containers out there, this one is minimalistic and straight forward. Doesn't have any third-party dependencies.*
 
 
 ## Todo
@@ -9,3 +9,7 @@
 
 ## Author
 *Lauri Orgla <theorx@hotmail.com>*
+
+## Usage
+
+## Documentation

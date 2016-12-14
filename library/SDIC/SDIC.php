@@ -57,6 +57,20 @@ class SDIC {
     }
 
     /**
+     * Accepts array of dependencies. Example. [name => callback]
+     *
+     * @author Lauri Orgla <theorx@hotmail.com>
+     *
+     * @param array $dependencies
+     */
+    public function registerArray(array $dependencies) {
+
+        foreach($dependencies as $dependency => $callback) {
+            $this->register($dependency, $callback);
+        }
+    }
+
+    /**
      * Used for creating shared instances
      *
      * @author Lauri Orgla <theorx@hotmail.com>
@@ -68,7 +82,7 @@ class SDIC {
      */
     public function shared(string $name, callable $callback) {
 
-        if(!in_array($name, array_keys($this->instances))) {
+        if(!array_key_exists($name, $this->instances)) {
             $this->instances[$name] = $callback();
         }
 

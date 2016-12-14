@@ -158,10 +158,7 @@ class SDIC {
     public function loadExtension(SDICExtension $extension) {
 
         $this->extensions[] = $extension;
-
-        foreach($extension->registerDependencies() as $name => $callback) {
-            $this->register($name, $callback);
-        }
+        $this->registerArray($extension->registerDependencies());
     }
 
     /**

@@ -15,4 +15,4 @@ before_install:
 before_script:
   - echo "Before script.."
 
-script: phpunit
+script: vendor/bin/phpunit

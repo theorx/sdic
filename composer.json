@@ -2,8 +2,8 @@
   "name": "theorx/sdic",
   "description": "Simple dependency injection container",
   "type": "library",
-  "license": "MIT",
-  "version": "0.2.0",
+  "license": "GPLv3",
+  "version": "0.3.0",
   "authors": [
     {
       "name": "Lauri Orgla",
@@ -19,7 +19,7 @@
   "autoload": {
     "psr-4": {
       "Theorx\\SDIC\\": "library/SDIC/",
-      "Tests\\" : "tests/Unit/library/"
+      "Tests\\": "tests/Unit/library/"
     }
   }
 }

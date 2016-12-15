@@ -37,7 +37,7 @@ class SDIC {
      *         Register name => callback,
      *         Callback example:
      *         function ($container) {
-     *              return $container->shared(NAME, function(){
+     *              return $container->shared(NAME, function($container){
      *                  return {{shared instance}};
      *              });
      *          }
@@ -83,7 +83,7 @@ class SDIC {
     public function shared(string $name, callable $callback) {
 
         if(!array_key_exists($name, $this->instances)) {
-            $this->instances[$name] = $callback();
+            $this->instances[$name] = $callback($this);
         }
 
         return $this->instances[$name];

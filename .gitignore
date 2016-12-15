@@ -2,3 +2,4 @@
 vendor
 tests/logs/*
 tests/report
+test.php

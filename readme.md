@@ -4,14 +4,9 @@
 [![Build Status](https://travis-ci.org/theorx/sdic.svg?branch=master)](https://travis-ci.org/theorx/sdic)
 ----
 
-## Todo
-* Automated tests
-* Proper documentation
-* Examples for using Extensions within your project
-
 ## Author
 *Lauri Orgla <theorx@hotmail.com>*
 
-## Usage
+## Usage example
 
 ## Documentation

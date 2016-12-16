@@ -3,7 +3,7 @@
   "description": "Simple dependency injection container",
   "type": "library",
   "license": "GPLv3",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "authors": [
     {
       "name": "Lauri Orgla",
